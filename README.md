@@ -29,7 +29,7 @@ Additionally, for one prediction process only costs about 2 seconds.
 
 For more feature information V. A. Chhabria *et al.* **[1]** have discribe the detail of the feature extraction process.<br>
 The CE-FPN model is proposed by Y. Luo *et al.* **[2]**.
-![image](https://github.com/ycchen218/EDA-IRdrop-Prediction/blob/master/git_image/IRdrop_model.png)
+![image](https://github.com/Unity-Billal-mesloub/EDA-IRdrop-Prediction/blob/main/git_image/IRdrop_model.png)
 1. The purple CNN block is the CoordConv.
 2. SSF is the Sub-pixel Skip Fusion.
 3. SCE block is the Sub-pixel Context Enhancement.
@@ -59,17 +59,17 @@ python IR_drop_predict.py
 2. The output coordinate csv file and image array npy file are in the ./output file.
 3. The model predict cost time is **1.49 ~ 2.2 sec**.
 
-![image](https://github.com/ycchen218/EDA-IRdrop-Prediction/blob/master/git_image/predict.png)
+![image](https://github.com/Unity-Billal-mesloub/EDA-IRdrop-Prediction/blob/main/git_image/predict.png)
 ## Compare with ground truth
-![image](https://github.com/ycchen218/EDA-IRDrop-Prediction/blob/master/git_image/test_compare.png)
+![image](https://github.com/Unity-Billal-mesloub/EDA-IRDrop-Prediction/blob/main/git_image/test_compare.png)
 ## Cross validation while evalulate the model
 ROC Curve:<br>
-![image](https://github.com/ycchen218/EDA-IRDrop-Prediction/blob/master/git_image/ROC_curve.png)<br>
+![image](https://github.com/Unity-Billal-mesloub/EDA-IRDrop-Prediction/blob/main/git_image/ROC_curve.png)<br>
 SSIM score: **0.863** <br>
 AUC: **0.991** <br>
 Percision: **0.9975** <br>
 by pytorch_msssim.SSIM<br>
-by the same metrics code as [CircuitNet](https://github.com/circuitnet/CircuitNet)
+by the same metrics code as [CircuitNet](https://github.com/Unity-Educational-Formation/CircuitNet)
 ## Reference
 ```markdown
 [1] V. A. Chhabria, Y. Zhang, H. Ren, B. Keller, and S. S. Sapatnekar, "Mavirec: mL-aided vectored ir-drop estimation and classification," *Design, Automation & Test in Europe Conference & Exhibition*, pp. 1825-1828, 2021.
